@@ -1,0 +1,25 @@
+.Button{
+  color: white;
+  font: inherit;
+  border: 1px solid blue;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.untoggledButton {
+  background-color: green;
+}
+
+.untoggledButton:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.toggledButton{
+  background-color: red;
+}
+
+.toggledButton:hover{
+  background-color: salmon;
+  color: black;
+}
